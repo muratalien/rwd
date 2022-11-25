@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: green;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes example {
+            from {
+                width: 100px;
+            }
+
+            from {
+                height: 100px;
+            }
+
+            to {
+                width: 300px;
+            }
+
+            to {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div></div>
+
+</body>
+
+</html>

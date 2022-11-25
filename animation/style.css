@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+    transition: .3s linear;
+    visibility: hidden;
+
+}
+
+.icons span {
+    font-size: x-large;
+}
+
+.icons:hover {
+    animation-name: icons;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition: .3s;
+    visibility: visible;
+    transform: translateY(-10%);
+}
+
+.blue {
+    visibility: visible;
+    color: rgba(0, 0, 255, 0.541);
+}
